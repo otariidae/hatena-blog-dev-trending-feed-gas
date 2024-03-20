@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>Hatena Blog Dev Trending</title>
+	<link href="http://example.org/"/>
+	<updated>2024-03-21T01:45:76Z</updated>
+	<author>
+		<name>John Doe</name>
+	</author>
+	<entry>
+		<title>ZOZOTOWNにおけるマーケティングメール配信基盤の構築</title>
+		<link href="https://techblog.zozo.com/entry/mass-mail-delivery"/>
+		<id>https://techblog.zozo.com/entry/mass-mail-delivery</id>
+		<updated>2024-03-19T15:00:00.000Z</updated>
+	</entry>
+	<entry>
+		<title>Node.js18を20にアップデートして、jestの実行速度を3倍にした</title>
+		<link href="https://tech.curama.jp/entry/2024/03/19/124007"/>
+		<id>https://tech.curama.jp/entry/2024/03/19/124007</id>
+		<updated>2024-03-18T15:00:00.000Z</updated>
+	</entry>
+</feed>

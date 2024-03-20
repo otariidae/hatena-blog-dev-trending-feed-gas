@@ -1,0 +1,33 @@
+{
+  "name": "hatena-blog-dev-trending-feed-gas",
+  "private": true,
+  "description": "",
+  "main": "dist/main.js",
+  "type": "module",
+  "scripts": {
+    "build": "rollup -c",
+    "prepush": "npm run build",
+    "push": "clasp push",
+    "predeploy": "npm run push",
+    "deploy": "clasp deploy",
+    "test": "node --test --loader ts-node/esm \"test/main.ts\""
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@google/clasp": "^2.4.2",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-sucrase": "^5.0.2",
+    "@types/google-apps-script": "^1.0.82",
+    "dirname-filename-esm": "^1.1.1",
+    "rollup": "^4.13.0",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dom-parser": "^1.1.5"
+  },
+  "volta": {
+    "node": "20.11.1"
+  }
+}
